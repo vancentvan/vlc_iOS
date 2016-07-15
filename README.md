@@ -20,8 +20,7 @@ When information above shows on the terminal window (similar for both device and
 
  lipo -create /Users/apple/Desktop/vlc_iOS/MobileVLCKit/build/Release-iphoneos/libMobileVLCKit.a /Users/apple/Desktop/vlc_iOS/MobileVLCKit/build/Release-iphonesimulator/libMobileVLCKit.a -output /Users/apple/Desktop/vlc_iOS/MobileVLCKit.a
 
- <p>And when you test the supported types you will find armv7 and i386 are both supported</p>
- appletekiiMac:~ apple$ lipo -info /Users/apple/Desktop/vlc_iOS/MobileVLCKit.a
+ <p>And when you test the supported types you will find armv7 and i386 are both supported</p>appletekiiMac:~ apple$ lipo -info /Users/apple/Desktop/vlc_iOS/MobileVLCKit.a
  Architectures in the fat file: /Users/apple/Desktop/vlc_iOS/MobileVLCKit.a are: armv7 i386 x86_64 arm64 
 
 You can also use command sh buildMobileVLCKit.sh -f directly to deliver dyni=amic library framework MobileVLCKit.framework during compiling and it can be used after bing imported to your project.
