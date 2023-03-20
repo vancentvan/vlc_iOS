@@ -1,3 +1,4 @@
+```
 # vlc_ios
 Steps to compile vlc for iOS on OS X
 
@@ -24,3 +25,4 @@ When information above shows on the terminal window (similar for both device and
  Architectures in the fat file: /Users/apple/Desktop/vlc_iOS/MobileVLCKit.a are: armv7 i386 x86_64 arm64
 
 You can also use command sh buildMobileVLCKit.sh -f directly to deliver dyni=amic library framework MobileVLCKit.framework during compiling and it can be used after bing imported to your project.
+```
